@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';  // Import useLocation
+import { Link, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 
 const Navbar = () => {
-  const location = useLocation();  // Hook to get the current location (path)
-  const [activeTab, setActiveTab] = useState(location.pathname);  // Set initial state based on the current location
+  const location = useLocation();
+  const [activeTab, setActiveTab] = useState(location.pathname);
 
   useEffect(() => {
-    // Update activeTab whenever the route changes
     setActiveTab(location.pathname);
-  }, [location]);  // Re-run effect when location changes
+  }, [location]);
 
   return (
     <nav id="navbar" className="navbar navbar-expand-lg">
@@ -18,7 +17,7 @@ const Navbar = () => {
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <Link
-              className={`nav-link ${activeTab === '/home' ? 'active' : ''}`}  // Compare with '/home'
+              className={`nav-link ${activeTab === '/home' ? 'active' : ''}`}
               to="/home"
             >
               Home
@@ -26,18 +25,34 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              className={`nav-link ${activeTab === '/content' ? 'active' : ''}`}  // Compare with '/registration'
+              className={`nav-link ${activeTab === '/content' ? 'active' : ''}`}
               to="/content"
             >
-              Content
+              Course Details
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              className={`nav-link ${activeTab === '/register' ? 'active' : ''}`}  // Compare with '/contact'
+              className={`nav-link ${activeTab === '/register' ? 'active' : ''}`}
               to="/register"
             >
               Register
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              className={`nav-link ${activeTab === '/about' ? 'active' : ''}`}
+              to="/about"
+            >
+              About Us
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              className={`nav-link ${activeTab === '/contact' ? 'active' : ''}`}
+              to="/contact"
+            >
+              Contact Us
             </Link>
           </li>
         </ul>

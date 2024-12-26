@@ -4,7 +4,7 @@ import './Content.css'; // Import custom CSS
 import Navbar from '../../navbar/Navbar'; // Import Navbar component
 import ContentBox from './ContentBox'; // Import ContentBox component
 
-function App() {
+function Content() {
   return (
     <>
       <Navbar />
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default Content;

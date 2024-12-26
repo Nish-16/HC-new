@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ContentBox({ heading, content, align }) {
+function ContentBox({ heading, content}) {
   const boxStyle = {
     border: '1px solid #ccc',
     padding: '20px',
