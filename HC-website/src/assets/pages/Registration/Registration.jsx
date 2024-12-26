@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure you have Bootstrap included
 import Navbar from '../../navbar/Navbar';
 import './Registration.css';
+import SiteFooter from '../../SiteFooter/SiteFooter'
 
 const Registration = () => {
   return (
@@ -13,6 +14,7 @@ const Registration = () => {
           <p>Details of registration</p>
         </div>
       </div>
+      {/* <SiteFooter/> */}
     </>
   );
 };
