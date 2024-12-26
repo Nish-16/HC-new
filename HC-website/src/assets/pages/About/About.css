@@ -1,0 +1,22 @@
+/* About.css */
+.Achievement-container{
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 100px; /* Adjust this value as needed */
+    background-color: #f9f9f9;
+  }
+
+
+
+  .Workshop-container{
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 50px; /* Adjust this value as needed */
+    background-color: #f9f9f9;
+
+  }
+  

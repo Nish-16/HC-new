@@ -23,6 +23,9 @@ function Home() {
             </div>
           </div>
         </div>
+        <h4 className='text-center'>Audience</h4>
+        <p className='text-center'>undergraduates etc etc</p> <br /><br /><br />
+        <h4 className='text-center'>email ID</h4>
       </div>
     </>
   );
