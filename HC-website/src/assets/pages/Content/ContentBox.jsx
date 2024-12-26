@@ -10,6 +10,7 @@ function ContentBox({ heading, content, align }) {
     borderRadius: '8px',
     boxShadow: '2px 2px 12px rgba(0, 0, 0, 0.1)',
     textAlign: 'center', // Default alignment is left
+    border: '2px solid black'
   };
 
   const headingStyle = {
@@ -22,7 +23,7 @@ function ContentBox({ heading, content, align }) {
 
   return (
     <div style={boxStyle}>
-      <h2 style={headingStyle}>{heading}</h2>
+      <h4 style={headingStyle}>{heading}</h4>
       <p style={contentStyle}>{content}</p>
     </div>
   );

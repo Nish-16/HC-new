@@ -1,31 +1,49 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';  // Import useLocation
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css'; // Import custom CSS for the navbar
+import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
+  const location = useLocation();  // Hook to get the current location (path)
+  const [activeTab, setActiveTab] = useState(location.pathname);  // Set initial state based on the current location
+
+  useEffect(() => {
+    // Update activeTab whenever the route changes
+    setActiveTab(location.pathname);
+  }, [location]);  // Re-run effect when location changes
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/home" activeClassName="active">Home</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/content" activeClassName="active">Content</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/register" activeClassName="active">Register</NavLink>
-            </li>
-          </ul>
-        </div>
+    <nav id="navbar" className="navbar navbar-expand-lg">
+      <div className="container-navbar-main">
+        <ul className="navbar-nav ms-auto">
+          <li className="nav-item">
+            <Link
+              className={`nav-link ${activeTab === '/home' ? 'active' : ''}`}  // Compare with '/home'
+              to="/home"
+            >
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              className={`nav-link ${activeTab === '/content' ? 'active' : ''}`}  // Compare with '/registration'
+              to="/content"
+            >
+              Content
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              className={`nav-link ${activeTab === '/register' ? 'active' : ''}`}  // Compare with '/contact'
+              to="/register"
+            >
+              Register
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

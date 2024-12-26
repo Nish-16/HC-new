@@ -14,6 +14,7 @@ function App() {
           <p className="text-center">This is the content</p>
         </header>
         <div className="Box-Container container">
+          <h1 className="Box-heading">Schedule</h1>
           <div className="row">
             <div className="col-12">
               <ContentBox heading="Box 1 Heading" content="This is the content for Box 1." />
