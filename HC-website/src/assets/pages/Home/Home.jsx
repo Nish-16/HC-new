@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'; // Import custom CSS (if needed)
 import Navbar from '../../navbar/Navbar'; // Import Navbar component
 import HomeBox from './HomeBox'; // Import HomeBox component
+import SiteFooter from '../../SiteFooter/SiteFooter';
 
 function Home() {
   return (
@@ -16,7 +17,6 @@ function Home() {
           </header>
         </div>
         <div className="box-wrapper container">
-          <h1 className="home-box-heading">Home Box</h1>
           <div className="row">
             <div className="col-12">
               <HomeBox heading="Box Heading" content="This is the content for the Home Box." />
@@ -25,8 +25,9 @@ function Home() {
         </div>
         <h4 className='text-center'>Audience</h4>
         <p className='text-center'>undergraduates etc etc</p> <br /><br /><br />
-        <h4 className='text-center'>email ID</h4>
+        <h4 className='text-center'>email ID</h4> <br /><br /><br /><br />
       </div>
+    <SiteFooter/>
     </>
   );
 }

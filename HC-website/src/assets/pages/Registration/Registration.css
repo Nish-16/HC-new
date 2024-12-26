@@ -1,0 +1,12 @@
+.register-heading-container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 110px; /* Increase this value to move the box further down */
+    border: 2.5px solid black;
+    padding-left: 60px;
+}

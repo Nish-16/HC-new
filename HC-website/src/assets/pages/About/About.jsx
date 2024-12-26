@@ -3,6 +3,7 @@ import Achievements from './Achievements';
 import Navbar from '../../navbar/Navbar';
 import WorkshopSection from './WorkshopSection';
 import './About.css';
+import SiteFooter from '../../SiteFooter/SiteFooter';
 
 const About = () => {
   return (
@@ -18,6 +19,7 @@ const About = () => {
         <br />
       <WorkshopSection />
       </div>
+    <SiteFooter/>
     </div>
   );
 };

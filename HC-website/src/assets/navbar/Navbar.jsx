@@ -33,8 +33,8 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              className={`nav-link ${activeTab === '/register' ? 'active' : ''}`}
-              to="/register"
+              className={`nav-link ${activeTab === '/registration' ? 'active' : ''}`}
+              to="/registration"
             >
               Register
             </Link>

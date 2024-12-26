@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Content.css'; // Import custom CSS
 import Navbar from '../../navbar/Navbar'; // Import Navbar component
 import ContentBox from './ContentBox'; // Import ContentBox component
+import SiteFooter from '../../SiteFooter/SiteFooter';
 
 function Content() {
   return (
@@ -48,6 +49,7 @@ function Content() {
           {/* Add more ContentBox components as needed */}
         </div>
       </div>
+      <SiteFooter/>
     </>
   );
 }
