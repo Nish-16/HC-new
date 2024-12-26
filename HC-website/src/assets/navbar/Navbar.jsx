@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css'; // Import custom CSS for the navbar
 
@@ -12,13 +13,13 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">Home</a>
+              <NavLink className="nav-link" to="/home" activeClassName="active">Home</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Register</a>
+              <NavLink className="nav-link" to="/content" activeClassName="active">Content</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <NavLink className="nav-link" to="/register" activeClassName="active">Register</NavLink>
             </li>
           </ul>
         </div>

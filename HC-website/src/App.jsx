@@ -1,15 +1,13 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from "./assets/pages/home/home";
-// import Contact from "./assets/Pages/Contact";
-// import Registration from "./assets/Pages/Registration";
+import Content from "./assets/pages/Content/Content"; // Ensure correct path
 
 function App() {
   return (
     <div id="app-root">
       <BrowserRouter>
         <Routes>
-          <Route path="/home" element={<Home />} /> {/* Home Page */}
+          <Route path="/content" element={<Content />} /> {/* Content Page */}
         </Routes>
       </BrowserRouter>
     </div>
