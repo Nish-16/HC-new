@@ -38,11 +38,11 @@ function Content() {
           </ul>
           <li><strong>Resource of the Day:</strong></li>
           <ul>
-            <li>Android Studio download link</li>
-            <li>Android Studio Installation Guide</li>
-            <li>Kotlin Official Documentation link</li>
-            <li>Logcat Documentation: Official Guide: Write and View Logs with Logcat</li>
-            <li>Emulator (Virtual Device Testing) Documentation: Official Guide: Run Apps on the Emulator</li>
+            <li><a href="https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQiAvbm7BhC5ARIsAFjwNHsGqZpGQhyPMi3jxt2UfxjjZM8odNrB6RTDdicZDEbBIwzCDvOvJ68aAhSGEALw_wcB&gclsrc=aw.ds">Android Studio download link</a></li>
+            <li><a href="https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQiAvbm7BhC5ARIsAFjwNHulZpUETEWn4D2bALMoR-QyBN0Bwjmvl9Hdurlq_vR3uyeAGzaMrh0aAs9VEALw_wcB&gclsrc=aw.ds">Android Studio Installation Guide</a></li>
+            <li><a href="https://kotlinlang.org/docs/home.html">Kotlin Official Documentation link</a></li>
+            <li><a href="https://developer.android.com/tools/logcat">Logcat Documentation: Official Guide: Write and View Logs with Logcat</a></li>
+            <li><a href="https://developer.android.com/studio/run/emulator">Emulator (Virtual Device Testing) Documentation: Official Guide: Run Apps on the Emulator</a></li>
           </ul>
           <li><strong>Daily Tasks:</strong></li>
           <ul>
@@ -83,9 +83,9 @@ function Content() {
           </ul>
           <li><strong>Resource of the Day:</strong></li>
           <ul>
-            <li>Kotlin Collections and Functions: link</li>
-            <li>Jetpack Compose Basics: Jetpack Compose Overview</li>
-            <li>Layout Basics and Interactivity: Compose Layouts Guide</li>
+            <li><a href="https://www.geeksforgeeks.org/kotlin-android-tutorial/">Kotlin Collections and Functions: link</a></li>
+            <li><a href="https://developer.android.com/develop/ui/compose/documentation">Jetpack Compose Basics: Jetpack Compose Overview</a></li>
+            <li><a href="https://developer.android.com/develop/ui/compose/layouts">Layout Basics and Interactivity: Compose Layouts Guide</a></li>
           </ul>
           <li><strong>Daily Tasks:</strong></li>
           <ul>
@@ -118,9 +118,9 @@ function Content() {
           </ul>
           <li><strong>Resource of the Day:</strong></li>
           <ul>
-            <li><a href="#">Jetpack Compose Layouts: Compose Layouts</a></li>
-            <li><a href="#">Git and GitHub Basics: GitHub Docs</a></li>
-            <li><a href="#">APK Generation and Build Process: Build and Generate APK in Android Studio</a></li>
+            <li><a href="https://developer.android.com/develop/ui/compose/layouts">Jetpack Compose Layouts: Compose Layouts</a></li>
+            <li><a href="https://docs.github.com/en/get-started">Git and GitHub Basics: GitHub Docs</a></li>
+            <li><a href="https://www.geeksforgeeks.org/methods-of-generating-apk-of-android-application/">APK Generation and Build Process: Build and Generate APK in Android Studio</a></li>
             <li><a href="https://developer.android.com/develop/ui/compose/state">State Management in Jetpack Compose</a></li>
           </ul>
           <li><strong>Daily Tasks:</strong></li>
@@ -145,8 +145,8 @@ function Content() {
             </ul>
             <li>Lazy Row/Column</li>
             <ul>
+              <li>Learn how to make anything scrollable in your app.</li>
               <li>Efficiently displays wishlist items.</li>
-              <li>Loads only visible items to optimize scrolling performance.</li>
             </ul>
             <li>Scaffold</li>
             <ul>
@@ -155,12 +155,12 @@ function Content() {
             </ul>
             <li>Room Database</li>
             <ul>
+              <li>Use Local storage as a database in your mobile.</li>
               <li>Stores and retrieves wishlist data locally.</li>
-              <li>Ensures data persistence even when the app is closed.</li>
             </ul>
             <li>Toast Messages</li>
             <ul>
-              <li>Displays brief, non-intrusive notifications for actions like adding or deleting items from the wishlist.</li>
+              <li>Display pop-up messages to communicate with users.</li>
             </ul>
             <li>Navigation</li>
             <ul>
@@ -178,9 +178,9 @@ function Content() {
           </ul>
           <li><strong>Resources of the Day:</strong></li>
           <ul>
-            <li><a href="#">MVVM Architecture in Android: link</a></li>
+            <li><a href="https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-android/">MVVM Architecture in Android: link</a></li>
             <li><a href="https://developer.android.com/develop/ui/compose/lists#lazycolumn-and-lazyrow">LazyRow and LazyColumn in Jetpack Compose</a></li>
-            <li><a href="#">Scaffold in Jetpack Compose: link</a></li>
+            <li><a href="https://developer.android.com/develop/ui/compose/components/scaffold">Scaffold in Jetpack Compose: link</a></li>
             <li><a href="https://developer.android.com/reference/android/widget/Toast">Toast Messages in Android</a></li>
           </ul>
           <li><strong>Daily Tasks:</strong></li>
@@ -203,7 +203,7 @@ function Content() {
             <li>Allow the app to generate real-time responses to user queries.</li>
             <li>Build a visually appealing and easy-to-use chat interface using Jetpack Compose.</li>
             <li>Create a smooth conversation flow where users can send and receive messages easily.</li>
-            <li>Handling Real-Time Messaging:</li>
+            <li>Handling Real-Time Messaging</li>
             <ul>
               <li>Use Retrofit to manage API calls and real-time messaging.</li>
               <li>Ensure quick and accurate responses between the user and ChatGPT in the chat bot.</li>
@@ -217,7 +217,7 @@ function Content() {
           <li><strong>Resources of the Day:</strong></li>
           <ul>
             <li><a href="https://platform.openai.com/docs/guides/text-generation">OpenAI API Documentation: ChatGPT</a></li>
-            <li><a href="#">Jetpack Compose: Building a Chat UI (Codelab)</a></li>
+            <li><a href="https://developer.android.com/develop/ui/compose/documentation">Jetpack Compose: Building a Chat UI (Codelab)</a></li>
             <li><a href="https://square.github.io/retrofit/">Retrofit Documentation</a></li>
             <li><a href="#">Handling JSON with Retrofit and Gson in Kotlin</a></li>
           </ul>
@@ -244,15 +244,13 @@ function Content() {
           </ul>
           <li><strong>Self Learning:</strong></li>
           <ul>
-            <li>Study dynamic list updates in Jetpack Compose.</li>
-            <li>Research Android’s Bluetooth APIs.</li>
+            <li>Learn about different kinds of permissions in Android.</li>
           </ul>
           <li><strong>Resources of the Day:</strong></li>
           <ul>
             <li><a href="https://developer.android.com/develop/connectivity/bluetooth/bt-permissions">Bluetooth Permissions in Android</a></li>
             <li><a href="https://developer.android.com/compose">Jetpack Compose Basics</a></li>
             <li><a href="https://developer.android.com/develop/ui/compose/lists#lazycolumn">LazyColumn in Jetpack Compose</a></li>
-            <li><a href="#">Bluetooth API Overview</a></li>
           </ul>
           <li><strong>Daily Tasks:</strong></li>
           <ul>
@@ -268,9 +266,9 @@ function Content() {
         <ul>
           <li><strong>Topics of the Day:</strong></li>
           <ul>
+            <li>Learn how to use a cloud database made by Google.</li>
             <li>Integrate Firebase for backend services like authentication and Firestore.</li>
-            <li>Connect your app to Firebase using the Firebase SDK.</li>
-            <li>Implement authentication with methods such as email/password for secure user sign-up and login.</li>
+            <li>Learn how to make a sign-up and login page.</li>
             <li>Use Firestore for real-time data syncing and secure storage.</li>
             <li>Set up built-in access control rules to manage data security.</li>
           </ul>
@@ -281,9 +279,9 @@ function Content() {
           </ul>
           <li><strong>Resources of the Day:</strong></li>
           <ul>
-            <li><a href="#">Get Started with Firebase in Android</a></li>
-            <li><a href="#">Firebase SDK Setup for Android</a></li>
-            <li><a href="#">Firestore Documentation</a></li>
+            <li><a href="https://firebase.google.com/docs/functions/get-started?gen=2nd">Get Started with Firebase in Android</a></li>
+            <li><a href="https://firebase.google.com/docs/android/setup">Firebase SDK Setup for Android</a></li>
+            <li><a href="https://firebase.google.com/docs/firestore">Firestore Documentation</a></li>
           </ul>
           <li><strong>Daily Tasks:</strong></li>
           <ul>
@@ -312,15 +310,15 @@ function Content() {
           </ul>
           <li><strong>Resources of the Day:</strong></li>
           <ul>
-            <li><a href="#">Firebase Authentication Documentation</a></li>
-            <li><a href="#">Firebase Firestore Documentation</a></li>
-            <li><a href="#">Firestore Security Rules</a></li>
+            <li><a href="https://firebase.google.com/docs/auth">Firebase Authentication Documentation</a></li>
+            <li><a href="https://firebase.google.com/docs/firestore">Firebase Firestore Documentation</a></li>
+            <li><a href="https://firebase.google.com/docs/rules">Firestore Security Rules</a></li>
           </ul>
           <li><strong>Daily Tasks:</strong></li>
           <ul>
             <li>Build user signup and login flows.</li>
             <li>Implement real-time messaging functionality with Firebase Firestore.</li>
-            <li>Design a user-friendly chat UI.</li>
+            <li>Design a User-Friendly Chat UI.</li>
           </ul>
         </ul>
       `
@@ -354,8 +352,8 @@ function Content() {
           </ul>
         </ul>
       `
-    }
-];
+    } 
+  ];
 
   return (
     <>
@@ -365,17 +363,28 @@ function Content() {
           <h4 className="text-center">
             Course Details:
             <br />
-            Brief Schedule:
           </h4>
         </header>
         <div className="Box-Container container">
-          <h1 className="Box-heading">Detail Schedule</h1>
+          <h2 className="text-center my-4">Course Schedule</h2>
+          <h3 className="text-center my-4">Week 1: Building Foundations and Core Android Concepts</h3>
           <div className="row">
-            {contentData.map((section, index) => (
+            {contentData.slice(0, 4).map((section, index) => (
               <div className="col-12" key={index}>
                 <ContentBox 
                   heading={section.heading} 
-                  content={<div dangerouslySetInnerHTML={{ __html: section.content }} />}
+                  content={<div dangerouslySetInnerHTML={{ __html: section.content }} />} 
+                />
+              </div>
+            ))}
+          </div>
+          <h3 className="text-center my-4">Week 2: Advanced Projects and Modern Development Techniques</h3>  {/* Inserted heading */}
+          <div className="row">
+            {contentData.slice(4).map((section, index) => (
+              <div className="col-12" key={index}>
+                <ContentBox 
+                  heading={section.heading} 
+                  content={<div dangerouslySetInnerHTML={{ __html: section.content }} />} 
                 />
               </div>
             ))}
@@ -385,6 +394,7 @@ function Content() {
       <SiteFooter />
     </>
   );
+  
 }
 
 export default Content;

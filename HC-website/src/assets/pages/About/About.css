@@ -19,4 +19,21 @@
     background-color: #f9f9f9;
 
   }
+
+
+  @media (max-width: 576px) {
+    .textArea {
+      padding: 5px; /* Reduce padding for small screens */
+      margin-top: 10px; /* Adjust margin */
+    }
+    
+    .title {
+      font-size: 1rem; /* Adjust font size */
+    }
+    
+    .image {
+      height: 200px; /* Adjust image height for small screens */
+    }
+  }
+  
   

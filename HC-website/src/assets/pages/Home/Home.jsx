@@ -7,61 +7,59 @@ import SiteFooter from '../../SiteFooter/SiteFooter';
 
 function Home() {
   return (
-    <>
+    <div className='Home-background'>
       <Navbar />
       <div className="homepage-container">
         <div className="header-box-container">
           <header className="header-box">
             <h1 className="text-center homepage-title">Android App Development Course</h1>
-            <p className="text-center homepage-description"></p>
+            <h3 className='textbox-0'><strong>With Kotlin and Jetpack Compose </strong></h3>
+            <p className="text-center homepage-description">
+            </p>
             <div className="course-details text-center">
-              <p>With Kotlin and Jetpack Compose</p>
-              <p>15 days training program</p>
-              <p>For beginners and experienced developers, UG/PG students</p>
-              <p>January 10-24, 2025</p>
-              <p>Organized by: <strong>Humble Coders</strong></p>
+              <p className='textbox-1'><strong>
+              15 days training program <br />For beginners and experienced developers, UG/PG students</strong></p>
+              <p className='textbox-2'><strong>January 10, 2025</strong></p>
+              <p className='textbox-3'><strong>Organized by: Humble Coders</strong></p>
             </div>
+            <div className='register-link'>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCAQzqkVE7d52jLucXsZBzkVNx__dUB7FvhwYjFnIjer4beA/viewform?usp=sf_link" rel="noopener noreferrer">
+  <u>Register Now</u>
+    
+  </a>
+</div>
+
           </header>
         </div>
         <div className="box-wrapper container">
           <div className="row">
             <div className="col-12">
-              {/* Replace the Registration Link box with Program Outcomes */}
               <HomeBox heading="Program Outcomes" content={
-                <ul className="custom-bullet-list">
+                <ul> <strong>
                   <li>Gain hands-on experience with Kotlin and Jetpack Compose for Android app development.</li>
                   <li>Explore advanced concepts like Firebase integration, MVVM architecture, APIs, and real-time communication.</li>
                   <li>Learn to design visually stunning and user-friendly app interfaces.</li>
                   <li>
-                    <strong>Projects:</strong> Build professional apps from scratch, including a CGPA calculator, Wishlist app, Chatbot, Bluetooth scanner, and Chat application.
+                    Projects: Build professional apps from scratch, including a CGPA calculator, Wishlist app, Chatbot, Bluetooth scanner, and Chat application.
                   </li>
                   <li>
-                    <strong>Certification:</strong> Receive a Certificate of Completion to enhance your career profile.
+                    Certification: Receive a Certificate of Completion to enhance your career profile.
                   </li>
+                  </strong>
                 </ul>
               } />
-              <p className="text-center">
-                <a 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdCAQzqkVE7d52jLucXsZBzkVNx__dUB7FvhwYjFnIjer4beA/viewform?usp=sf_link" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="btn btn-primary mt-3"
-                >
-                  Click Here to Register
-                </a>
-              </p>
             </div>
           </div>
         </div>
         <h4 className="text-center">Target Audience</h4>
-        <p className="text-center">Undergraduate and postgraduate students from all disciplines and academic levels.</p>
+        <p className="text-center">Undergraduate and Postgraduate students from all disciplines and academic levels.</p>
         <br /><br /><br />
         <h4 className="text-center">Feel free to reach out at</h4>
         <p className="text-center">executives@humblecoders.in </p>
         <br /><br /><br /><br />
       </div>
       <SiteFooter />
-    </>
+    </div>
   );
 }
 

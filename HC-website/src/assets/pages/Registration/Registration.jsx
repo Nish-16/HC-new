@@ -6,7 +6,7 @@ import SiteFooter from '../../SiteFooter/SiteFooter';
 
 const Registration = () => {
   return (
-    <>
+    <div className='reg-bg'>
       <Navbar />
       <div className="container">
         <div className="register-heading-container">
@@ -30,7 +30,7 @@ const Registration = () => {
                 Android Studio
               </a>
             </p>
-            <p><strong>• Fees:</strong> Rs 1180 (18% GST Included)</p>
+            <p><strong>• Fees:</strong> <strike>Rs 1180</strike> 799/- (18% GST Included) (Till 31st December)</p>
             <p>
               <strong>• Registration Link:</strong>{' '}
               <a 
@@ -55,7 +55,7 @@ const Registration = () => {
         </div>
       </div>
       <SiteFooter />
-    </>
+    </div>
   );
 };
 

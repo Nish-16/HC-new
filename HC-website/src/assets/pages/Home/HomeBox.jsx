@@ -9,7 +9,7 @@ function HomeBox({ heading, content }) {
 
       <style jsx>{`
         .homebox-container {
-          border: 2px solid black;
+          border-left: 5px solid darkblue;
           padding: 20px;
           margin-bottom: 20px;
           background-color: #f9f9f9;
