@@ -2,6 +2,12 @@ import React from 'react';
 import Navbar from '../../navbar/Navbar';
 import './Contact.css';
 import SiteFooter from '../../SiteFooter/SiteFooter';
+import ansh from './ansh.jpg'
+import aaryan from './aaryan2.jpg'
+import ritvik from './ritvik.jpg'
+import shreya from './shreya2.jpg'
+import sharanya from './sharanya.jpg'
+import Ishank from './Ishank.png'
 import { FaPhone, FaEnvelope, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
@@ -22,19 +28,30 @@ const Contact = () => {
                   className="founder-image-container"
                   style={{ overflow: "hidden", borderRadius: "8px" }}
                 >
-                  {/* Placeholder for Ansh Bajaj's Image */}
-                  <div
+                  
+                  <img
+                    src={ansh}
+                    alt="Ansh Bajaj"
                     style={{
                       width: "100%",
-                      height: "150px",
-                      backgroundColor: "#ddd",
+                      height: "100%",
+                      objectFit: "cover",
                       borderRadius: "8px",
                     }}
-                  ></div>
+                  />
                 </div>
                 <div className="founder-info">
                   <p className="founder-title">Course Instructor</p>
-                  <p className="founder-name">Ansh Bajaj</p>
+                  <p className="founder-name">Ansh Bajaj
+                  <a
+                        href={"https://www.linkedin.com/in/anshbajaj2611"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginLeft: "8px", color: "#0077b5" }}
+                      >
+                        <FaLinkedin />
+                      </a>
+                  </p>
                 </div>
               </div>
               <div className="founder-card" style={{ margin: "10px" }}>
@@ -42,19 +59,30 @@ const Contact = () => {
                   className="founder-image-container"
                   style={{ overflow: "hidden", borderRadius: "8px" }}
                 >
-                  {/* Placeholder for Ishank Goyal's Image */}
-                  <div
+                  <img
+                    src={Ishank}
+                    alt="Ishank Goyal"
                     style={{
                       width: "100%",
-                      height: "150px",
-                      backgroundColor: "#ddd",
+                      height: "100%",
+                      objectFit: "cover",
                       borderRadius: "8px",
                     }}
-                  ></div>
+                  />
+                  
                 </div>
                 <div className="founder-info">
                   <p className="founder-title">Course Instructor</p>
-                  <p className="founder-name">Ishank Goyal</p>
+                  <p className="founder-name">Ishank Goyal
+                  <a
+                        href={"https://www.linkedin.com/in/ishank-goyal-4555a7275"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginLeft: "8px", color: "#0077b5" }}
+                      >
+                        <FaLinkedin />
+                      </a>
+                  </p>
                 </div>
               </div>
               <div className="founder-card" style={{ margin: "10px" }}>
@@ -62,19 +90,30 @@ const Contact = () => {
                   className="founder-image-container"
                   style={{ overflow: "hidden", borderRadius: "8px" }}
                 >
-                  {/* Placeholder for Aaryan Kaushal's Image */}
-                  <div
+                  
+                  <img
+                    src={aaryan}
+                    alt="Aaryan Kaushal"
                     style={{
                       width: "100%",
-                      height: "150px",
-                      backgroundColor: "#ddd",
+                      height: "100%",
+                      objectFit: "cover",
                       borderRadius: "8px",
                     }}
-                  ></div>
+                  />
                 </div>
                 <div className="founder-info">
                   <p className="founder-title">Course Coordinator</p>
-                  <p className="founder-name">Aaryan Kaushal</p>
+                  <p className="founder-name">Aaryan Kaushal
+                  <a
+                        href={"https://www.linkedin.com/in/aaryan-kaushal-2141b9283"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginLeft: "8px", color: "#0077b5" }}
+                      >
+                        <FaLinkedin />
+                      </a>
+                  </p>
                 </div>
               </div>
               <div className="founder-card" style={{ margin: "10px" }}>
@@ -82,19 +121,29 @@ const Contact = () => {
                   className="founder-image-container"
                   style={{ overflow: "hidden", borderRadius: "8px" }}
                 >
-                  {/* Placeholder for Ritvik Singla's Image */}
-                  <div
+                  <img
+                    src={ritvik}
+                    alt="Ritvik Singla"
                     style={{
                       width: "100%",
-                      height: "150px",
-                      backgroundColor: "#ddd",
+                      height: "100%",
+                      objectFit: "cover",
                       borderRadius: "8px",
                     }}
-                  ></div>
+                  />
                 </div>
                 <div className="founder-info">
                   <p className="founder-title">Course Coordinator</p>
-                  <p className="founder-name">Ritvik Singla</p>
+                  <p className="founder-name">Ritvik Singla
+                  <a
+                        href={"https://www.linkedin.com/in/ritvik-singla-b386602a6"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginLeft: "8px", color: "#0077b5" }}
+                      >
+                        <FaLinkedin />
+                      </a>
+                  </p>
                 </div>
               </div>
               <div className="founder-card" style={{ margin: "10px" }}>
@@ -102,19 +151,29 @@ const Contact = () => {
                   className="founder-image-container"
                   style={{ overflow: "hidden", borderRadius: "8px" }}
                 >
-                  {/* Placeholder for Shreya Baranwal's Image */}
-                  <div
+                  <img
+                    src={shreya}
+                    alt="Shreya Baranwal"
                     style={{
                       width: "100%",
-                      height: "150px",
-                      backgroundColor: "#ddd",
+                      height: "100%",
+                      objectFit: "cover",
                       borderRadius: "8px",
                     }}
-                  ></div>
+                  />
                 </div>
                 <div className="founder-info">
                   <p className="founder-title">Designer</p>
-                  <p className="founder-name">Shreya Baranwal</p>
+                  <p className="founder-name">Shreya Baranwal
+                  <a
+                        href={"https://www.linkedin.com/in/shreya-baranwal-3188a427b"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginLeft: "8px", color: "#0077b5" }}
+                      >
+                        <FaLinkedin />
+                      </a>
+                  </p>
                 </div>
               </div>
               <div className="founder-card" style={{ margin: "10px" }}>
@@ -122,19 +181,29 @@ const Contact = () => {
                   className="founder-image-container"
                   style={{ overflow: "hidden", borderRadius: "8px" }}
                 >
-                  {/* Placeholder for Sharanya Goel's Image */}
-                  <div
+                 <img
+                    src={sharanya}
+                    alt="Sharanya Goel"
                     style={{
                       width: "100%",
-                      height: "150px",
-                      backgroundColor: "#ddd",
+                      height: "100%",
+                      objectFit: "cover",
                       borderRadius: "8px",
                     }}
-                  ></div>
+                  />
                 </div>
                 <div className="founder-info">
                   <p className="founder-title">Content Writer</p>
-                  <p className="founder-name">Sharanya Goel</p>
+                  <p className="founder-name">Sharanya Goel
+                  <a
+                        href={"https://www.linkedin.com/in/sharnya-goel-b96697284 "}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginLeft: "8px", color: "#0077b5" }}
+                      >
+                        <FaLinkedin />
+                      </a>
+                  </p>
                 </div>
               </div>
             </div>
