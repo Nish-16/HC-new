@@ -1,16 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ContentBox({ heading, content}) {
+function ContentBox({ heading, content }) {
   const boxStyle = {
-    border: '1px solid #ccc',
+    border: '2px solid black',
     padding: '20px',
     marginBottom: '20px',
     backgroundColor: '#f9f9f9',
     borderRadius: '8px',
     boxShadow: '2px 2px 12px rgba(0, 0, 0, 0.1)',
-    textAlign: 'center', // Default alignment is left
-    border: '2px solid black'
+    textAlign: 'center'
   };
 
   const headingStyle = {
@@ -19,12 +18,14 @@ function ContentBox({ heading, content}) {
 
   const contentStyle = {
     textAlign: 'left',
+    listStyleType: 'disc',
+    paddingLeft: '20px'
   };
 
   return (
     <div style={boxStyle}>
       <h4 style={headingStyle}>{heading}</h4>
-      <p style={contentStyle}>{content}</p>
+      <div style={contentStyle}>{content}</div>
     </div>
   );
 }

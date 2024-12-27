@@ -4,6 +4,7 @@ import Content from "./assets/pages/Content/Content"; // Ensure correct path
 import Home from "./assets/pages/Home/Home";
 import About from "./assets/pages/About/About";
 import Registration from "./assets/pages/Registration/Registration";
+import Contact from "./assets/pages/Contact/Contact"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

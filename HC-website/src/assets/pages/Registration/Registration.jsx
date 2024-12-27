@@ -54,7 +54,7 @@ const Registration = () => {
           </ul>
         </div>
       </div>
-      {/* <SiteFooter /> */}
+      <SiteFooter />
     </>
   );
 };
