@@ -362,7 +362,6 @@ function Content() {
       <Navbar />
       <div className="Content-container">
         <header className="Title-box">
-          <h1 className="text-center">Welcome to My Responsive Webpage</h1>
           <h4 className="text-center">
             Course Details:
             <br />
