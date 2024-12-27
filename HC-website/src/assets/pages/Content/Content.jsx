@@ -360,10 +360,32 @@ function Content() {
       <Navbar />
       <div className="Content-container">
         <header className="Title-box">
-          <h4 className="text-center">
-            Course Details:
-            <br />
-          </h4>
+        <h4 className="text-center"> Course Details: <br /> </h4>
+
+<p><strong>Time:</strong></p>
+<ul>
+  <li><strong>Online:</strong> 6:00 to 8:00 PM</li>
+</ul>
+
+<p><strong>Note:</strong></p>
+<ul>
+  <li>(1) Be on Time</li>
+  <li>(2) Bring your Laptop</li>
+</ul>
+
+<p><strong>Brief Schedule:</strong></p>
+<ul>
+  <li><strong>Day 1:</strong> Introduction, Android Studio Setup and Kotlin Basics</li>
+  <li><strong>Day 2:</strong> Mastering Kotlin and Jetpack Compose Basics</li>
+  <li><strong>Day 3 & Day 4:</strong> Build your own CGPA calculator mobile application and deploy on GitHub</li>
+  <li><strong>Day 5 to Day 8:</strong> Advanced Wishlist App</li>
+  <li><strong>Day 9:</strong> Crafting Your Personal AI Companion</li>
+  <li><strong>Day 10:</strong> Bluetooth Scanner App</li>
+  <li><strong>Day 11:</strong> Firebase Integration</li>
+  <li><strong>Day 12 & Day 13:</strong> Develop your Real-Time Chatting Application</li>
+  <li><strong>Day 14 & Day 15:</strong> Notifications, Services, and Receivers</li>
+</ul>
+
         </header>
         <div className="Box-Container container">
           <h2 className="text-center my-4">Course Schedule</h2>
